@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-hkbrpulz><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Worm calculator | VermiHome</title><meta name="description" content="How many composting worms does your household need? Enter your household size and kitchen scraps to get a starter worm quantity and bin size recommendation."><link rel="canonical" href="https://vermihome.surge.sh/tools/worm-calculator/"><meta property="og:type" content="article"><meta property="og:site_name" content="VermiHome"><meta property="og:title" content="Worm calculator | VermiHome"><meta property="og:description" content="How many composting worms does your household need? Enter your household size and kitchen scraps to get a starter worm quantity and bin size recommendation."><meta property="og:url" content="https://vermihome.surge.sh/tools/worm-calculator/"><meta property="og:image" content="https://vermihome.surge.sh/images/hero.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Worm calculator | VermiHome"><meta name="twitter:description" content="How many composting worms does your household need? Enter your household size and kitchen scraps to get a starter worm quantity and bin size recommendation."><meta name="twitter:image" content="https://vermihome.surge.sh/images/hero.webp"><link rel="icon" type="image/svg+xml" href="/vermihome/favicon.svg"><link rel="stylesheet" href="/vermihome/_astro/Base.BAgUgY6w.css"></head><body data-astro-cid-hkbrpulz><div class="progress" id="progress" aria-hidden="true" data-astro-cid-hkbrpulz></div><header class="site" data-astro-cid-hkbrpulz><div class="wrap" data-astro-cid-hkbrpulz><a class="brand" href="/vermihome/" data-astro-cid-hkbrpulz>Vermi<span data-astro-cid-hkbrpulz>Home</span></a><button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" data-astro-cid-hkbrpulz>☰</button><nav class="main" id="mainNav" aria-label="Main navigation" data-astro-cid-hkbrpulz><a href="/vermihome/start/" data-astro-cid-hkbrpulz>Getting Started</a><a href="/vermihome/worms/" data-astro-cid-hkbrpulz>The Worms</a><a href="/vermihome/troubleshooting/" data-astro-cid-hkbrpulz>Troubleshooting</a><a href="/vermihome/harvest/" data-astro-cid-hkbrpulz>Harvest &amp; Use</a><a href="/vermihome/tools/worm-calculator/" data-astro-cid-hkbrpulz>Tools</a><a href="/vermihome/about/" data-astro-cid-hkbrpulz>About</a></nav></div></header><main data-astro-cid-hkbrpulz><div class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/vermihome/">Home</a> › Tools › Worm calculator</nav><div class="narrow"><h1>How many worms do I need?</h1><p>A common rule of thumb in vermicomposting: worms can eat roughly <strong>half their body weight in food scraps per day</strong>. Tell us about your household and we'll estimate a sensible starter quantity — plus the bin size to house them.</p><div class="tool-box"><label for="people">People in your household</label><input id="people" type="number" min="1" max="10" value="2"><label for="scraps">Kitchen scraps per week (roughly)</label><select id="scraps"><option value="1">A little — a small bowl or less</option><option value="2" selected>A moderate amount — a few bowls</option><option value="3">A lot — we cook most meals at home</option></select><button id="calcBtn" type="button">Calculate</button><div class="tool-result" id="result" aria-live="polite"></div></div><p><strong>Heads up:</strong> this is a starting estimate, not a lab measurement. Start on the lower end — a healthy bin's worm population grows to match the food supply within a few months. Read <a href="/vermihome/worms/how-many-worms-do-i-need/">how many worms do I need</a> for the full explanation.</p></div></div><script type="module">var e=document.getElementById(`calcBtn`),t=document.getElementById(`result`);e?.addEventListener(`click`,()=>{let e=Math.max(1,Math.min(10,parseInt(document.getElementById(`people`).value||`2`,10))),n=parseInt(document.getElementById(`scraps`).value,10),r=e*.5*(n===1?.6:n===3?1.6:1),i=r/7,a=Math.max(.5,Math.round(i*2*2)/2),o=Math.max(1,Math.round(a*1)),s=Math.round(a*1e3);t&&(t.style.display=`block`,t.innerHTML=`<strong>Start with about ${a} lb of red wigglers</strong> (roughly ${s.toLocaleString()} worms).<br>Bin size: around ${o} square foot${o>1?`s`:``} of surface area (a standard 10-gallon tote works for up to ~1 lb).<br>Expected scraps: ~${r.toFixed(1)} lb per week.`)});</script></main><footer class="site" data-astro-cid-hkbrpulz><div class="wrap" data-astro-cid-hkbrpulz><div class="cols" data-astro-cid-hkbrpulz><div data-astro-cid-hkbrpulz><h4 data-astro-cid-hkbrpulz>Learn</h4><ul data-astro-cid-hkbrpulz><li data-astro-cid-hkbrpulz><a href="/vermihome/start/" data-astro-cid-hkbrpulz>Getting Started</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/worms/" data-astro-cid-hkbrpulz>The Worms</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/troubleshooting/" data-astro-cid-hkbrpulz>Troubleshooting</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/harvest/" data-astro-cid-hkbrpulz>Harvest &amp; Use</a></li></ul></div><div data-astro-cid-hkbrpulz><h4 data-astro-cid-hkbrpulz>Tools</h4><ul data-astro-cid-hkbrpulz><li data-astro-cid-hkbrpulz><a href="/vermihome/tools/worm-calculator/" data-astro-cid-hkbrpulz>Worm calculator</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/tools/feeding-planner/" data-astro-cid-hkbrpulz>Feeding planner</a></li></ul></div><div data-astro-cid-hkbrpulz><h4 data-astro-cid-hkbrpulz>Trust</h4><ul data-astro-cid-hkbrpulz><li data-astro-cid-hkbrpulz><a href="/vermihome/about/" data-astro-cid-hkbrpulz>About</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/contact/" data-astro-cid-hkbrpulz>Contact</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/editorial-policy/" data-astro-cid-hkbrpulz>Editorial policy</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/ai-disclosure/" data-astro-cid-hkbrpulz>AI disclosure</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/disclaimer/" data-astro-cid-hkbrpulz>Disclaimer</a></li><li data-astro-cid-hkbrpulz><a href="/vermihome/privacy-policy/" data-astro-cid-hkbrpulz>Privacy policy</a></li></ul></div></div><div class="fineprint" data-astro-cid-hkbrpulz>© 2026 VermiHome. Worm composting guidance for apartment living. Content is educational and based on widely documented vermicomposting practice; see our <a href="/vermihome/disclaimer/" data-astro-cid-hkbrpulz>disclaimer</a>.</div></div></footer><script>
+      (function () {
+        document.documentElement.classList.add('js');
+
+        // Reading progress bar
+        var bar = document.getElementById('progress');
+        function onScroll() {
+          var h = document.documentElement;
+          var max = h.scrollHeight - h.clientHeight;
+          bar.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+        }
+        document.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Mobile nav
+        var toggle = document.getElementById('navToggle');
+        var nav = document.getElementById('mainNav');
+        if (toggle && nav) {
+          toggle.addEventListener('click', function () {
+            var open = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+          });
+        }
+
+        // Scroll-reveal
+        var revealEls = document.querySelectorAll('.reveal');
+        if ('IntersectionObserver' in window && revealEls.length) {
+          var ro = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+            });
+          }, { threshold: 0.12 });
+          revealEls.forEach(function (el) { ro.observe(el); });
+        } else {
+          revealEls.forEach(function (el) { el.classList.add('visible'); });
+        }
+
+        // Animated counters
+        var counters = document.querySelectorAll('[data-count]');
+        function animateCount(el) {
+          var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+          var dur = 1100, start = null;
+          function tick(t) {
+            if (!start) start = t;
+            var p = Math.min((t - start) / dur, 1);
+            el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+            if (p < 1) requestAnimationFrame(tick);
+          }
+          requestAnimationFrame(tick);
+        }
+        if ('IntersectionObserver' in window && counters.length) {
+          var co = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) { animateCount(e.target); co.unobserve(e.target); }
+            });
+          }, { threshold: 0.5 });
+          counters.forEach(function (el) { co.observe(el); });
+        }
+
+        // Article table of contents
+        var toc = document.getElementById('toc');
+        var body = document.querySelector('.article-body');
+        if (toc && body) {
+          var heads = body.querySelectorAll(':scope > h2');
+          var keep = [];
+          heads.forEach(function (h) {
+            if (h.closest('.keep-reading')) return;
+            var text = h.textContent.trim();
+            if (!text || /keep reading/i.test(text)) return;
+            if (!h.id) {
+              h.id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            }
+            keep.push(h);
+          });
+          if (keep.length > 1) {
+            var title = document.createElement('h2');
+            title.textContent = 'On this page';
+            var ul = document.createElement('ul');
+            keep.forEach(function (h) {
+              var li = document.createElement('li');
+              var a = document.createElement('a');
+              a.href = '#' + h.id;
+              a.textContent = h.textContent.trim();
+              a.setAttribute('data-toc', h.id);
+              li.appendChild(a);
+              ul.appendChild(li);
+            });
+            toc.appendChild(title);
+            toc.appendChild(ul);
+            // Active-section highlight
+            var links = toc.querySelectorAll('a[data-toc]');
+            if ('IntersectionObserver' in window) {
+              var so = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                  if (e.isIntersecting) {
+                    links.forEach(function (l) {
+                      l.classList.toggle('active', l.getAttribute('data-toc') === e.target.id);
+                    });
+                  }
+                });
+              }, { rootMargin: '-30% 0px -60% 0px' });
+              keep.forEach(function (h) { so.observe(h); });
+            }
+          } else {
+            var wrap = toc.closest('.toc-wrap');
+            if (wrap) wrap.style.display = 'none';
+          }
+        }
+      })();
+    </script></body></html>
