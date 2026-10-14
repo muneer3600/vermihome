@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vermihome.surge.sh/sitemap-index.xml
+Sitemap: https://muneer3600.github.io/vermihome/sitemap-index.xml
